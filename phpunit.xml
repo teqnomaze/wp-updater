@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./vendor/autoload.php" colors="true" stopOnFailure="false" backupGlobals="false">
+    <testsuites>
+        <testsuite name="Wordpress Updater">
+            <directory prefix="test-" suffix=".php">./tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

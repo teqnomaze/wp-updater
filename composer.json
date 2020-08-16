@@ -1,0 +1,37 @@
+{
+  "name": "teqnomaze/wp-updater",
+  "description": "A class library for getting latest updates for Wordpress themes and plugins from a remote server.",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+      {
+        "name": "Musthafa SM",
+        "email": "musthafasm@gmail.com"
+      }
+  ],
+  "require": {
+    "automattic/jetpack-autoloader": "^2.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5",
+    "szepeviktor/phpstan-wordpress": "^0.6.1",
+    "wp-coding-standards/wpcs": "^2.3",
+    "dealerdirect/phpcodesniffer-composer-installer": "0.7.0",
+    "phpcompatibility/phpcompatibility-wp": "2.1.0"
+  },
+  "scripts": {
+    "phpunit": "./vendor/bin/phpunit --configuration phpunit.xml",
+    "phpstan": "./vendor/bin/phpstan analyse -c phpstan.neon",
+    "phpcs": "./vendor/bin/phpcs --standard=phpcs.xml"
+  },
+  "autoload": {
+    "psr-4": {
+      "Teqnomaze\\WpUpdater\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Teqnomaze\\WpUpdater\\Tests\\": "tests"
+    }
+  }
+}

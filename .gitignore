@@ -1,0 +1,33 @@
+#composer stuff
+vendor
+composer.lock
+composer.phar
+
+# npm stuff
+node_modules
+package-lock.json
+
+#build stuff
+build/coverage
+build/test-results
+build/.phpunit.result.cache
+
+# random stuff
+
+
+# os and ide stuff
+*~
+*.bak
+Thumbs.db
+desktop.ini
+.buildpath
+.project
+.settings
+*.tmproj
+git_impact.sh
+cache.properties
+nbproject/
+.php_cs.cache
+._.DS_Store
+.DS_Store
+.vscode
