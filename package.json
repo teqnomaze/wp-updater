@@ -1,0 +1,12 @@
+{
+  "name": "wp-updater",
+  "description": "A class library for getting latest updates for Wordpress themes and plugins from a remote server.",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-zip": "^5.0"
+  },
+  "scripts": {
+    "build": "gulp"
+  }
+}

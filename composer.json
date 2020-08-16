@@ -1,7 +1,7 @@
 {
   "name": "teqnomaze/wp-updater",
   "description": "A class library for getting latest updates for Wordpress themes and plugins from a remote server.",
-  "type": "wordpress-plugin",
+  "type": "library",
   "license": "GPL-3.0-or-later",
   "authors": [
       {
@@ -9,9 +9,7 @@
         "email": "musthafasm@gmail.com"
       }
   ],
-  "require": {
-    "automattic/jetpack-autoloader": "^2.1"
-  },
+  "require": {},
   "require-dev": {
     "phpunit/phpunit": "^7.5",
     "szepeviktor/phpstan-wordpress": "^0.6.1",
