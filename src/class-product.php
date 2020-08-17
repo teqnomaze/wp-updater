@@ -2,7 +2,7 @@
 /**
  * The class for storing product information.
  *
- * @package    WpUpdater
+ * @package WpUpdater
  */
 
 namespace Teqnomaze\WpUpdater;
